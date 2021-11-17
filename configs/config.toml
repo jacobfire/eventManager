@@ -1,0 +1,11 @@
+bind_addr = ":5000"
+log_level = "debug"
+
+[storage]
+database_url = "postgres://selectel:selectel@127.0.0.1:5432/selectel?sslmode=disable"
+
+[redisConfig]
+host = "localhost"
+port = ":6379"
+password = ""
+db = 0
